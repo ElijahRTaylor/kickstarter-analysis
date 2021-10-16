@@ -14,18 +14,18 @@ Based on the line chart, we can see that most of the theather kickstarters were 
 
 ### Analysis of Outcomes Based on Goals
 
-A Another thing that we wanted to analyze was the relationship between play kickstarter campaigns and their goal amounts.  We wanted to see whether campaigns for these plays generally succeeded or failed due to their campaign goal amount.  In order to properly analyze, we created 12 separate dollar amount ranges and calculated the number of successful, failed, and canceled projects based on those ranges.  Once we calculated the total amount of projects in each range, we then calculated the percentage of each outcome for each range.  
+Another thing that we wanted to analyze was the relationship between play kickstarter campaigns and their goal amounts.  We wanted to see whether campaigns for these plays generally succeeded or failed due to their campaign goal amount.  In order to properly analyze, we created 12 separate dollar amount ranges and calculated the number of successful, failed, and canceled projects based on those ranges.  Once we calculated the total amount of projects in each range, we then calculated the percentage of each outcome for each range.  
 
 
 The chart below shows the percentage of successful campaigns against failed and canceled campaigns in each range.
 ![Outcomes_vs_Goals](https://user-images.githubusercontent.com/87248687/137568286-98e58d76-5792-4896-8483-16cab522145c.png)
 
-From looking on this chart, the first thing we can see is that there were no canceled campaigns.  This means that the percentage of successful and failed campaigns for each range should add up to 100%.  Because of this, the line representing the percentage of successful campaigns is a reflection of the line represenitng the failed campaigns across the x-axis.  We can see that percentage of successful campaigns with goals from the ranges of <1000-19999 appear to drop as the goal amount increases from range to range.  It appears to go back up again between the ranges of 35000-44999, but then it sharply declines after that. 
+From looking on this chart, the first thing we can see is that there were no canceled campaigns.  This means that the percentage of successful and failed campaigns for each range should add up to 100%.  Because of this, the line representing the percentage of successful campaigns is a reflection of the line representing the failed campaigns.  We can see that percentage of successful campaigns with goals from the ranges of <1000-19999 appear to drop as the goal amount increases from range to range.  It appears to go back up again between the ranges of 35000-44999, but then it sharply declines after that. 
 
 ### Challenges and Difficulities Encountered 
 It was extremely important for us to ensure that we had the launch dates in the proper axis so that the line graph could clearly display the count of outcomes vs the launch month.  Before having the proper fields for the pivot chart completed, my line chart was not being clearly displayed.
 
-One of the challenges I ran into initially was forgetting to format the cells to represent percentage amounts.  Before I did this, my line chart was displaying the data as decimals rather than percentages.
+For the analysis of the outcomes based on goals, one of the challenges I ran into initially was forgetting to format the cells to represent percentage amounts.  Before I did this, my line chart was displaying the data as decimals rather than percentages.
 
 ## Results
 
@@ -33,8 +33,7 @@ One of the challenges I ran into initially was forgetting to format the cells to
 
 -Based on the Outcomes based on Goals analysis, we can conclude that kickstarter campaigns for the plays tended to fail more often as the goal amount grew larger and larger.  
 
--One of the limitations in this data set is that we do not have a large sample size of instances of kickstarter campaigns having goals of more than 15000.   Another limitation of the dataset is that it is not specifc to one specific country.  Therefore, the external factors being experienced from each month may vary based on geographical location. 
+-One of the limitations in this data set is that we do not have a large sample size of instances of kickstarter campaigns having goals of more than 15000.   Another limitation of the dataset is that it is not specifc to one specific country.  Therefore, we are dealing with different currencies that may not have the same value as the other currencies it is being analyzed with.
 
--For the outcomes based on goals analysis, we could have also used a pie chart for each goal range.  Since we were dealing with percentages, it would have been a good graphical representation tool to show how many of the campaigns in those ranges were successful vs. failed campaigns.
-
+-For the outcomes based on goals analysis, we could have also used a pie chart for each goal range.  Since we were dealing with percentages, it would have been a good graphical representation tool to show how many of the campaigns in those ranges were successful vs. failed campaigns.  Another chart we could have used was the 100% stacked columns.  This could provide a visual representation of the percentage of kickstarter campaigns that were failed or successful for each goal range.
 
